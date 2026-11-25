@@ -27,7 +27,9 @@ class SideMenuItem extends StatelessWidget {
               color: AppColors.accent,
               size: 22,
             ),
+
             const SizedBox(width: 24),
+            
             Text(
               title,
               style: AppTypography.redHeadText.copyWith(
